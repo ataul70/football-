@@ -12,9 +12,9 @@ p{line-height: 150%;margin-bottom: 2em;}
 .aligncenter{display:block;margin:0 auto;}
 .floatleft{float:left}
 .floatright{float:right}
-/**start **/
+/**-----start------**/
 
-/*-------------
+/*------------------
  start header section
  -------------------*/
 .header{
@@ -26,7 +26,6 @@ p{line-height: 150%;margin-bottom: 2em;}
     grid-template-columns: repeat(2, 1fr);
     padding: 10% 0%;
 }
-
 .home-two-sec h1{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -45,26 +44,24 @@ p{line-height: 150%;margin-bottom: 2em;}
     font-size: 16px;
     color:#fff;
 }
-
-/* home banner */
+/*------home banner------*/
 .home-two-sec img{
     width: 550px;
     height: 438px;
-    filter: grayscale(0) blur(0);
 	transition: .3s ease-in-out;
 }
 .home-two-sec:hover img{
-    filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(1px);
 }
- /*--===========
+ /*--------------
  end header section
- ==============--*/
+ ----------------*/
 
 
 
-/*--===========
+/*---------------
  start player section
- ==============--*/
+ -----------------*/
 
  .player-main{
      display: grid;
@@ -93,13 +90,13 @@ p{line-height: 150%;margin-bottom: 2em;}
     text-transform: lowercase;
     color:#6C6C6C;
 }
-/*--===========
+/*--------------
  start player section
- ==============--*/
+ -----------------*/
 
-/*--===========
+/*----------------
  start matach section
- ==============--*/
+ ------------------*/
 
  .matach-cont{
      width:100%;
