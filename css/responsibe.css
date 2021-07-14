@@ -1,0 +1,5 @@
+@media all and (max-width:688) {
+    .home-streem{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
