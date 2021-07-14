@@ -288,30 +288,3 @@ p{line-height: 150%;margin-bottom: 2em;}
  /*--===========
  end footer section
  ==============--*/
-
-
-
-/*=======
- mobile divice
- ======== */
-
- @media only screen and (max-width:688px) {
-     .container{
-         width: 100%;
-     }
-    .home-streem{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .home-two-sec{
-        flex-direction: column;
-        padding: 20px;
-    }
-    .home-two-sec img{
-        width:100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-

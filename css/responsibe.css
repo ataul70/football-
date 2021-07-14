@@ -1,5 +1,108 @@
-@media all and (max-width:688) {
-    .home-streem{
-        grid-template-columns: repeat(1, 1fr);
+
+/*---------------
+    mobile divice
+ -------------------*/
+
+ @media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
     }
+   .home-streem{
+       grid-template-columns: repeat(1, 1fr);
+   }
+   .home-two-sec{
+       flex-direction: column;
+       padding: 20px;
+   }
+   .home-two-sec img{
+       width:100%;
+       height: auto;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+   }
+   /* -----player sec-----  */
+   .player-main{
+       grid-template-columns: repeat(1, 1fr);
+   }
+   .player-list img{
+       width:100%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+   }
+   /*----- matach sectin-----  */
+   .matches{
+       grid-template-columns: repeat(1, 1fr);
+   }
+   .latest{
+       grid-template-columns: 80%;
+   }
+   /*------ top player----- */
+   .toop-player{
+       grid-template-columns: repeat(1, 1fr);
+       grid-row-gap: 30px;
+       padding: 10px;
+   }
+   /*------ player goal ------*/
+   .goal-player{
+       grid-template-columns: repeat(1, 1fr);
+       grid-row-gap: 30px;
+       padding: 10px;
+   }
+   .player-goal h1{
+       font-size: 25px;
+       margin: 0px;
+   }
+} 
+/*---------------
+    tablate divice
+-------------------*/
+@media only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+    .home-streem{
+        padding: 10px;
+    }
+   /* ----------player sec -------- */
+   .player-main{
+       grid-template-columns: repeat(2, 1fr);
+   }
+   .player-list img{
+       width:100%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+   }
+   /*-------- mataches sec---------- */
+   .matches{
+       grid-template-columns: repeat(2, 1fr);
+   }
+   .latest{
+       grid-template-columns: 100%;
+   }
+   /*--------- top player------------  */
+   .toop-player{
+       grid-template-columns: repeat(2, 1fr);
+       grid-row-gap: 30px;
+       padding: 20px;
+   }
+    /*-------- player goal-------------- */
+    .goal-player{
+       grid-template-columns: repeat(2, 1fr);
+       grid-row-gap: 30px;
+       padding: 10px;
+   }
+   .player-goal h1{
+       font-size: 30px;
+   }
+} 
+/*-------------
+    learg divice
+------------------*/
+@media only screen and (min-width:992px) and (max-width:1312px){
+   .matches{
+       padding: 0px 30px;
+   }
 }
